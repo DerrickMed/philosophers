@@ -1,0 +1,369 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Sep 12 18:38:53 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+WSLENV = ELECTRON_RUN_AS_NODE/w:WT_SESSION:BASH_ENV/u:WT_PROFILE_ID
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /root/.vscode-server
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /mnt/c/Users/Derrick/Desktop/School/philosophers
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /mnt/c/Users/Derrick/AppData/Local/Programs/Microsoft VS Code/bin/code
+# makefile (from 'ft_itoa.d', line 1)
+MAKEFILE_LIST :=  Makefile main.d threads.d ft_atoi.d ft_itoa.d
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 5)
+OBJS = $(patsubst %.c,%.o,$(SRCS))
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /mnt/c/Users/Derrick/AppData/Local/Programs/Microsoft VS Code
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /root/.vscode-server/bin/e7d7e9a9348e6a8cc8c03f877d39cb72e5dfb1ff/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/Eclipse Foundation/jdk-16.0.2.7-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/LLVM/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Derrick/Norm:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/Derrick/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Derrick/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Derrick/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Derrick/.dotnet/tools:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2021.2/bin:/snap/bin
+# environment
+BASH_ENV = /etc/bash.bashrc
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-4ab97a84-b46b-46f4-9953-4e20af8ad420.sock
+# makefile (from 'Makefile', line 13)
+LIB = -lpthread
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = 172.18.0.1:0.0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /mnt/c/Users/Derrick/Desktop/School/philosophers
+# default
+.LOADED := 
+# environment
+WSL_INTEROP = /run/WSL/11_interop
+# environment
+WT_SESSION = 5a4e7271-bc10-45a3-a360-992fa24880fc
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/server/remoteExtensionHostProcess
+# environment
+HOME = /root
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = root
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 1)
+SRCS = main.c threads.c ft_atoi.c ft_itoa.c
+# environment
+SHLVL = 1
+# makefile (from 'Makefile', line 9)
+CC = gcc
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = root
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 3)
+NAME = philosophers
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/Derrick/.vscode/extensions/ms-vscode-remote.remote-wsl-0.58.2
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+WT_PROFILE_ID = {75def201-4efb-5e32-93a0-c5647120c025}
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LIBGL_ALWAYS_INDIRECT = 1
+# environment
+LC_ALL = C
+# environment
+HOSTTYPE = x86_64
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from 'Makefile', line 11)
+FLAGS = -Wall -Wextra -Werror -g -MMD
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile (from 'Makefile', line 7)
+D_FILES = $(patsubst %.c,%.d,$(SRCS))
+# environment
+VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /root/.vscode-server/bin/e7d7e9a9348e6a8cc8c03f877d39cb72e5dfb1ff/remote/node_modules
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+WSL_DISTRO_NAME = ubuntu
+# environment
+MOTD_SHOWN = update-motd
+# variable set hash-table stats:
+# Load=80/1024=8%, Rehash=0, Collisions=6/120=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 45, inode 71776119061821211): 19 files, no impossibilities.
+
+# 19 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.o: %.c
+#  recipe to execute (from 'Makefile', line 21):
+	$(CC) $(FLAGS) -c $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+ft_itoa.o: ft_itoa.c ft_itoa.c phils.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'ft_itoa'
+#  Last modified 2021-08-04 23:59:01.0652066
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 21):
+	$(CC) $(FLAGS) -c $< -o $@
+
+all: philosophers
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: all clean fclean re
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-04 23:57:54.3047328
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ft_atoi.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-17 17:53:45.5896197
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+threads.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-04 23:59:00.9366962
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-29 20:18:59.447571
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+ft_itoa.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-17 17:53:48.8115232
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+phils.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-30 11:40:58.6531823
+#  File has been updated.
+#  Successfully updated.
+
+fclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 30):
+			rm -rf $(NAME)
+
+# Not a target:
+main.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-04 23:59:00.8786969
+#  File has been updated.
+#  Successfully updated.
+
+threads.o: threads.c threads.c phils.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'threads'
+ 
+#  Last modified 2021-08-04 23:59:00.9546974
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 21):
+	$(CC) $(FLAGS) -c $< -o $@
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_atoi.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-04 23:59:00.9902066
+#  File has been updated.
+#  Successfully updated.
+
+philosophers: main.o threads.o ft_atoi.o ft_itoa.o
+#  Implicit rule search has not been done.
+#  Last modified 2021-08-04 23:59:01.2297428
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 18):
+			$(CC) $(FLAGS) -o $(NAME) $(OBJS) $(LIB)
+
+re: fclean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 26):
+			rm -rf $(OBJS)
+			rm -f ${D_FILES}
+
+# Not a target:
+ft_itoa.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-04 23:59:01.0442075
+#  File has been updated.
+#  Successfully updated.
+
+main.o: main.c main.c phils.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2021-08-04 23:59:00.8956969
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 21):
+	$(CC) $(FLAGS) -c $< -o $@
+
+ft_atoi.o: ft_atoi.c ft_atoi.c phils.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'ft_atoi'
+#  Last modified 2021-08-04 23:59:01.0062067
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 21):
+	$(CC) $(FLAGS) -c $< -o $@
+
+# Not a target:
+threads.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-08-02 00:26:15.0031908
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=22/1024=2%, Rehash=0, Collisions=0/70=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 34 / storage = 288 B / avg = 8 B
+# current buf: size = 8162 B / used = 288 B / count = 34 / avg = 8 B
+
+# strcache performance: lookups = 90 / hit rate = 62%
+# hash-table stats:
+# Load=34/8192=0%, Rehash=0, Collisions=1/90=1%
+# Finished Make data base on Sun Sep 12 18:38:53 2021
+
+ 

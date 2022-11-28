@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/c/Users/Derrick/Desktop/School/philosophers'
+gcc -Wall -Wextra -Werror -g -MMD -c main.c -o main.o
+gcc -Wall -Wextra -Werror -g -MMD -c threads.c -o threads.o
+gcc -Wall -Wextra -Werror -g -MMD -c ft_atoi.c -o ft_atoi.o
+gcc -Wall -Wextra -Werror -g -MMD -c ft_itoa.c -o ft_itoa.o
+gcc -Wall -Wextra -Werror -g -MMD -o philosophers main.o threads.o ft_atoi.o ft_itoa.o -lpthread
+make: Leaving directory '/mnt/c/Users/Derrick/Desktop/School/philosophers'
+ 
